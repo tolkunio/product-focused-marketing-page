@@ -5,7 +5,7 @@ body {
 
 .container {
   margin: 0;
-  width: 1280px;
+  width: 100%;
   border: 1px solid red;
   box-sizing: border-box;
 }
@@ -24,7 +24,7 @@ body {
   clear: both;
 }
 .page-header-wrp {
-  width: 400px;
+  width: 50%;
   border: 1px solid;
   float: left;
 }
@@ -38,7 +38,7 @@ body {
 
 .page-header-list {
   margin: 0;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 30px;
   font-size: 20px;
   line-height: 36px;
   font-weight: 400;
@@ -54,18 +54,68 @@ body {
   width: 15px;
   height: 15px;
   border: 1px solid white;
-  background-image: url("");
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Light_green_check.svg/768px-Light_green_check.svg.png");
+  background-color: white;
   background-size: cover;
   position: absolute;
-  top: 8;
-  left: -20;
+  top: 8px;
+  left: -20px;
 }
 
 .page-header-photo {
   display: block;
-  width: 350px;
+  width: 500px;
   height: 200px;
   background-color: #fff;
   color: black;
+  float: right;
+}
+
+.content {
+  margin: 0;
+  width: 100%;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+.about-product {
+  width: 100%;
+  background-color: white;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.about-product:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.about-product-wrp {
+  width: 60%;
+  border: 1px solid;
+  float: left;
+}
+
+.about-product-title {
+  display: block;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.about-product-text {
+  margin: 2 0 0 2;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.about-product-photo {
+  display: block;
+  width: 450px;
+  height: 200px;
+  background-color: black;
+  color: white;
   float: right;
 }
